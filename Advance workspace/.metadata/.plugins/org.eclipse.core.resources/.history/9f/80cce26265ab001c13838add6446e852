@@ -1,0 +1,13 @@
+package in.co.rays.test;
+package in.co.rays.bean;
+
+public class TestStudentModel {
+   public static void main(String[] args) {
+	testAdd();
+}
+
+private static void testAdd() {
+	Stu
+	
+}
+}

@@ -1,0 +1,50 @@
+package in.co.rays.test;
+
+import in.co.rays.bean.StudentBean;
+import in.co.rays.model.StudentModel;
+
+public class TestStudentModel {
+
+	public static void main(String[] args) throws Exception {
+		// testAdd();
+		//testUp();
+		testDel();
+	}
+
+	private static void testAdd() throws Exception {
+		StudentBean bean = new StudentBean();
+		// bean.setId(id);
+		bean.setRollNo("104");
+		bean.setFirstName("Sanket");
+		bean.setLastName("Jain");
+		bean.setSession("2020-21");
+
+		StudentModel model = new StudentModel();
+		model.add(bean);
+	}
+
+	private static void testUp() throws Exception {
+		StudentBean bean = new StudentBean();
+
+		bean.setRollNo("104");
+		bean.setFirstName("Veena");
+		bean.setLastName("Yadav");
+		bean.setSession("2020-21");
+		bean.setId(5);
+
+		StudentModel model = new StudentModel();
+		model.update(bean);
+
+	}
+	
+	private static void testDel() throws Exception {
+		StudentBean bean = new StudentBean();
+		bean.setId(5);
+
+		StudentModel model = new StudentModel();
+		model.del(bean);
+
+	}
+
+
+}

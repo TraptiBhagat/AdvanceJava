@@ -1,0 +1,46 @@
+package in.co.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/Loginctl")
+public class RegistrationServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		
+		String fn = request.getParameter("firstname");
+		String ln = request.getParameter("lastname");
+		String co = request.getParameter("phone");
+		String em = request.getParameter("email");
+		String ps = request.getParameter("password");
+		String ge = request.getParameter("gender");
+		String ho = request.getParameter("hobbies");
+		String ad = request.getParameter("address");		
+		
+		PrintWriter out = response.getWriter();
+		
+		out.println("firstname");
+		out.println("lastname");
+		out.println("phone");
+		out.println("email");
+		out.println("password");
+		out.println("gender");
+		out.println("hobbies");
+		out.println("address");
+	}
+
+}

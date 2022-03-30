@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Proj_Maven/src/main/webapp/forgetPwd.jsp&apos; to &apos;ForgetPasswordView.jsp&apos;" description="Rename resource &apos;forgetPwd.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/forgetPwd.jsp" name="ForgetPasswordView.jsp" stamp="1647520756055" updateReferences="true"/>
+</session>

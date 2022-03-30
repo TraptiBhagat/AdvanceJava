@@ -1,0 +1,24 @@
+package in.co.rays.test;
+
+import in.co.rays.bean.StudentBean;
+import in.co.rays.model.StudentModel;
+
+public class TestStudentModel {
+
+	public static void main(String[] args) {
+		testAdd();
+	}
+
+	private static void testAdd() {
+		StudentBean bean = new StudentBean();
+		// bean.setId(id);
+		bean.setRollNo("100");
+		bean.setFirstName("Trapti");
+		bean.setLastName("Bhagat");
+		bean.setSession("2020-21");
+		
+		StudentModel model = new StudentModel();
+		model.add(bean);
+	}
+
+}

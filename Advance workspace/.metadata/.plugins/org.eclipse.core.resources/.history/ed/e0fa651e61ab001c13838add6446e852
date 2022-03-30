@@ -1,0 +1,48 @@
+package in.co.rays.model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import in.co.rays.bean.StudentBean;
+
+public class StudentModel {
+	public int nextPK() throws Exception {
+		int pk = 0;
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/rays", "root", "root");
+		PreparedStatement ps = conn.prepareStatement("SELECT MAX(ID) FROM STUDENT");
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+
+			pk = rs.getInt(1);
+		}
+
+		return pk + 1;
+
+	}
+
+	public void add(StudentBean bean) throws Exception {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/rays", "root", "root");
+			PreparedStatement ps = conn.prepareStatement("INSERT INTO STUDENT VALUES (?, ?, ?, ?, ?)");
+
+			ps.setInt(1, nextPK());
+			ps.setString(2, bean.getRollNo());
+			ps.setString(3, bean.getFirstName());
+			ps.setString(4, bean.getLastName());
+			ps.setString(5, bean.getSession());
+
+			int i = ps.executeUpdate();
+			System.out.println(i);
+			ps.close();
+			conn.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void update
+}

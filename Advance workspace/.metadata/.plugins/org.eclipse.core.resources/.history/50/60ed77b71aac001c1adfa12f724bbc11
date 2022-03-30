@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Form</title>
+</head>
+<body>
+	<form action="" method="post">
+		<br> <br> <br> <br> <br> <br> <br>
+		<br> <br> <br> <br> <br> <br> <br>
+		<table align="center">
+			<tr>
+				<th>RollNo:</th>
+				<td><input type="text" name="rollno"></td>
+			</tr>
+			<tr>
+				<th>FirstName:</th>
+				<td><input type="text" name="firstname"></td>
+			</tr>
+			<tr>
+				<th>LastName:</th>
+				<td><input type="text" name="lastname"></td>
+			</tr>
+			<tr>
+				<th>Session:</th>
+				<td><input type="text" name="session"></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td><input type="submit" value="Add" name="operation">
+					<input type="submit" value="Delete" name="operation"> <input
+					type="submit" value="Modify" name="operation"></td>
+			</tr>
+
+		</table>
+
+	</form>
+</body>
+</html>
