@@ -1,0 +1,14 @@
+
+Apr 01, 2022 17:52:30.29 NEW SESSION
+Apr 01, 2022 17:52:30.29 [14708:8184:0401/175230.179:ERROR:device_event_log_impl.cc(214)] [17:52:30.179] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 01, 2022 17:52:30.29 [14708:8184:0401/175230.180:ERROR:device_event_log_impl.cc(214)] [17:52:30.180] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 01, 2022 18:06:29.71 [7508:11096:0401/180629.717:ERROR:device_event_log_impl.cc(214)] [18:06:29.717] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 01, 2022 18:06:29.75 [7508:11096:0401/180629.717:ERROR:device_event_log_impl.cc(214)] [18:06:29.718] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 01, 2022 18:07:47.23 [7508:5584:0401/180747.230:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -118
+Apr 01, 2022 18:08:51.52 [4700:11976:0401/180851.526:ERROR:device_event_log_impl.cc(214)] [18:08:51.526] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 01, 2022 18:08:51.52 [4700:11976:0401/180851.526:ERROR:device_event_log_impl.cc(214)] [18:08:51.526] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+May 07, 2022 11:56:20.22 NEW SESSION
+May 07, 2022 11:56:20.22 [10700:10244:0507/115620.221:ERROR:device_event_log_impl.cc(214)] [11:56:20.221] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 07, 2022 11:56:20.26 [10700:10244:0507/115620.222:ERROR:device_event_log_impl.cc(214)] [11:56:20.222] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 07, 2022 11:57:17.04 [10700:9116:0507/115717.040:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

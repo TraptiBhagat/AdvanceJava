@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+F:\Practise Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\776140738.index
+\PractiseMaven\src\main\resources
